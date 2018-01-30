@@ -12,6 +12,7 @@ sensor:
     api: eXXcbXXXacXXXXc39XX3aXXX4aXX46XX
     station: Kungälv
     type: road
+    unit_of_measurement: "°C"
 ```
 
 Configuration variables:
@@ -36,9 +37,25 @@ sensor:
     api: eXXcbXXXacXXXXc39XX3aXXX4aXX46XX
     station: Kungälv
     type: road
+    unit_of_measurement: "°C"
   - platform: trafikverket_weatherstations
     name: Trafikverket Air WeatherStation Lanna
     api: eXXcbXXXacXXXXc39XX3aXXX4aXX46XX
     station: Lanna
     type: air
+    unit_of_measurement: "°C"
 ```
+
+A good practice is to use secrets.yaml for all your API keys, username and password. Below is an example of using secrets.yaml for your Trafikverket API key.
+
+```
+## secrets.yaml
+trafikvarketapi: eXXcbXXXacXXXXc39XX3aXXX4aXX46XX
+
+## configuration.yaml
+  - platform: trafikverket_weatherstations
+    name: Trafikverket Air WeatherStation Lanna
+    api: !secret trafikvarketapi
+    station: Lanna
+    type: air
+    unit_of_measurement: "°C"
