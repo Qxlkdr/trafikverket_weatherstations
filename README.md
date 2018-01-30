@@ -19,7 +19,7 @@ Configuration variables:
 - **name** (*Required*): Unique name of the device in the frontend.
 - **api** (*Required*): API key from Trafikverket
 - **station** (*Required*): Name of the weather station
-- **type** (*Required*): Defines which temerature you want (`air` or `road`)
+- **type** (*Required*): Defines which temperature you want (`air` or `road`)
 
 ##### Getting API key:
 [https://api.trafikinfo.trafikverket.se/](https://api.trafikinfo.trafikverket.se/)
