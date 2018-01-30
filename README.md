@@ -20,6 +20,7 @@ Configuration variables:
 - **api** (*Required*): API key from Trafikverket
 - **station** (*Required*): Name of the weather station
 - **type** (*Required*): Defines which temperature you want (`air` or `road`)
+- **scan_interval** (*Optional*): How frequently to query for new data (in seconds). Defaults to 300 seconds (5 minutes)
 
 ##### Getting API key:
 [https://api.trafikinfo.trafikverket.se/](https://api.trafikinfo.trafikverket.se/)
@@ -41,6 +42,7 @@ sensor:
     api: eXXcbXXXacXXXXc39XX3aXXX4aXX46XX
     station: Lanna
     type: air
+    scan_interval: 600
 ```
 
 *A good practice is to use `secrets.yaml` for all your API keys, username and password. You can read more about secrets [here](https://home-assistant.io/docs/configuration/secrets/).*
