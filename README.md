@@ -1,6 +1,6 @@
 # Trafikverket WeatherStations
 
-Showing weather information for air and road provided by Trafikverket in Sweden. This Python file should be used as a custom component in Home Assistant.
+Showing weather information for air and road temperature provided by Trafikverket in Sweden. This Python file should be used as a custom component in Home Assistant.
 
 #### Configuration
 To enable this sensor, add the following lines to your `configuration.yaml`.

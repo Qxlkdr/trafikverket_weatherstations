@@ -1,5 +1,5 @@
 """
-Showing weather information for air and road provided by Trafikverket in Sweden.
+Showing weather information for air and road temperature provided by Trafikverket in Sweden.
 
 For more details about this platform, please refer to the documentation at
 https://home-assistant.io/components/sensor.trafikverket_weatherstations/
