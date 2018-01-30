@@ -42,3 +42,5 @@ sensor:
     station: Lanna
     type: air
 ```
+
+*A good practice is to use `secrets.yaml` for all your API keys, username and password. You can read more about secrets [here](https://home-assistant.io/docs/configuration/secrets/).*
