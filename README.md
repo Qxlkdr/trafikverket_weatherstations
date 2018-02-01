@@ -1,4 +1,4 @@
-# Trafikverket WeatherStations
+# Trafikverket WeatherStation
 
 Showing weather information for air and road temperature provided by Trafikverket in Sweden. This Python file should be used as a custom component in Home Assistant.
 
